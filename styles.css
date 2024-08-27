@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #151E3D; /* Color Denim */
+    padding: 30px 0;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3.5em;
+}
+
+nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white; /* Blanco para que sea visible sobre el Denim */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #151E3D; /* Denim para el fondo de los enlaces */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Efecto 3D */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+nav ul li a:hover {
+    background-color: #0F162D; /* Un tono más oscuro de Denim para el hover */
+    color: white; /* Asegura que el texto permanezca blanco cuando se hace hover */
+    transform: translateY(-2px); /* Levanta el botón al hacer hover */
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #151E3D; /* Denim para las líneas de división */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 5px solid #151E3D; /* Denim para las líneas de borde */
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #151E3D;
+}
+
+iframe {
+    margin: 20px 0;
+    display: block;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    color: #151E3D; /* Asegura que el texto sea visible siempre */
+    text-decoration: none;
+    font-weight: bold; /* Esto es opcional, pero hace que el texto sea más prominente */
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: #0F162D; /* Puedes mantener un color diferente para el hover si lo deseas */
+}
+.technologies-collapsible {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    display: none; /* Oculto por defecto */
+}
+
+.technologies-collapsible li {
+    background-color: #151E3D; /* Color Denim */
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.toggle-btn {
+    margin: 10px 0;
+    padding: 5px 10px;
+    background-color: #151E3D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toggle-btn:hover {
+    background-color: #0F162D;
+}
+
+
+
